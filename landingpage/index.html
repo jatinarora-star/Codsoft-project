@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Build Your Dream Website</h1>
+            <p>
+                A landing page is a perfect project for beginners to learn HTML &amp; CSS. Practice layouts, sections, and creative design while building something beautiful and user-friendly!
+            </p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+        <img class="hero-img" src="https://img.freepik.com/free-vector/website-creator-concept-illustration_114360-4457.jpg?w=826&t=st=1717860000~exp=1717860600~hmac=demo" alt="Web Development Illustration">
+    </section>
+    <section class="features" id="features">
+        <div class="feature-box">
+            <h3>Easy Layouts</h3>
+            <p>Learn to create columns, sections, and arrange content with simple HTML and CSS.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Creative Design</h3>
+            <p>Experiment with colors, boxes, and alignments to make your page visually appealing.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Responsive</h3>
+            <p>Your landing page will look great on all devices, from desktops to mobiles.</p>
+        </div>
+    </section>
+    <section id="about" style="padding:40px 20px; background:#e0e7ff; text-align:center;">
+        <h2>About This Project</h2>
+        <p style="max-width:600px; margin:18px auto;">
+            This landing page is designed as a beginner-friendly project to help you practice and showcase your HTML and CSS skills. Focus on structure, alignment, and creativity to build a page that stands out!
+        </p>
+    </section>
+    <section id="contact" style="padding:40px 20px; background:#fff; text-align:center;">
+        <h2>Contact</h2>
+        <p>
+            Have questions? <a href="mailto:your@email.com" style="color:#4f8cff;">Email us</a>
+        </p>
+    </section>
+    <footer>
+        &copy; 2024 My Landing Page. All rights reserved.
+    </footer>
+</body>
+</html>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8fafc;
+            color: #222;
+        }
+        header {
+            background: #4f8cff;
+            color: #fff;
+            padding: 30px 0 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #dbeafe;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px 40px 20px;
+            background: #e0e7ff;
+        }
+        .hero-content {
+            max-width: 500px;
+            margin-right: 40px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 18px;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            margin-bottom: 28px;
+        }
+        .cta-btn {
+            background: #4f8cff;
+            color: #fff;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover {
+            background: #2563eb;
+        }
+        .hero-img {
+            max-width: 320px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 20px;
+            background: #fff;
+        }
+        .feature-box {
+            background: #f1f5f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #0001;
+            padding: 30px 24px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .feature-box:hover {
+            transform: translateY(-8px) scale(1.03);
+        }
+        .feature-box h3 {
+            margin-bottom: 12px;
+            color: #4f8cff;
+        }
+        footer {
+            background: #4f8cff;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 900px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-content {
+                margin-right: 0;
+            }
+        }
+        @media (max-width: 600px) {
+            .features {
+                flex-direction: column;
+                gap: 18px;
+            }
+            .feature-box {
+                max-width: 100%;
+            }
+        }
+    </style>
+
+
+
+
